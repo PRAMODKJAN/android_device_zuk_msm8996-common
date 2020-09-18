@@ -575,6 +575,10 @@
     <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
     <bool name="config_cleanupUnusedFingerprints">false</bool>
 
-    <!-- Whether the device has hw keys -->
-    <bool name="config_canShowNavbarToggle">true</bool>
+    <!-- Whether the device has hw keys
+    <bool name="config_canShowNavbarToggle">true</bool -->
+
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+         autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">true</bool>
 </resources>
